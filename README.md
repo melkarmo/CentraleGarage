@@ -11,9 +11,13 @@ L'application permet de réaliser les opérations CRUD (Create, Read, Update, De
 (**Front**) HTML/CSS, Bootstrap  
 (**Tools**) XAMPP, phpMyAdmin, Visual Studio Code   
 
-## Configuration (en local)
+## Configuration (*localhost*)
 
-La configuration de l'application en local est assez simple grâce à WAMP (ou XAMPP). Il suffit d'importer le schéma MySQL `sql/ecl_garage.sql`, de configurer `model/model.php` avec les identifiants de votre base de données, et de lancer l'application.
+La configuration de l'application en local est assez simple grâce à WAMP (ou XAMPP) :
+
+1. Importer le schéma MySQL `sql/ecl_garage.sql` sur phpMyAdmin
+2. Configurer `model/model.php` avec les identifiants de votre base de données
+3. Démarrer le serveur applicatif, et se rendre sur http://localhost/CentraleGarage
 
 ## Captures d'écran
 
